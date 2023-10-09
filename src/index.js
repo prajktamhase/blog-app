@@ -12,11 +12,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const routes=createBrowserRouter([
  
   {
-    path:'/post',
+    path:'/',
     element:<Post/>,
   },
   {
-    path:'/post/read/:id',
+    path:'/read/:id',
     element:<ReadPost/>
   },
   {
